@@ -36,6 +36,7 @@ class User(unittest.TestCase):
         assert 200 == response.status_code
         if response.status_code == 200:
             print(response.json())
+            print(response.content())
             logging.info(response.json())
 
 

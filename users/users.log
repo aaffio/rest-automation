@@ -19,3 +19,9 @@ DEBUG:root:1
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): run.mocky.io:443
 DEBUG:urllib3.connectionpool:https://run.mocky.io:443 "GET /v3/4bec55e4-a566-4422-abfc-3c5aecd85064 HTTP/1.1" 200 192
 INFO:root:[{'id': 1, 'name': 'vici', 'city': 'depok'}, {'id': 2, 'name': 'marco', 'city': 'depok'}, {'id': 3, 'name': 'kican', 'city': 'jonggol'}]
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): run.mocky.io:443
+DEBUG:urllib3.connectionpool:https://run.mocky.io:443 "GET /v3/233c2093-e1c0-4bad-85ad-73b19322e593?customer_id1 HTTP/1.1" 200 50
+INFO:root:{'id': 1, 'name': 'vici', 'city': 'depok'}
+DEBUG:root:1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): run.mocky.io:443
+DEBUG:urllib3.connectionpool:https://run.mocky.io:443 "GET /v3/4bec55e4-a566-4422-abfc-3c5aecd85064 HTTP/1.1" 200 192
